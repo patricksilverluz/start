@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 1, 2);
+    background-color: rgb(8, 6, 6);
+    
+}
+.conteiner {
+    width: 80%;
+    margin: auto;
+}
+#dados{
+    background-color: rgb(241, 241, 243);
+    display: flex;
+    flex-direction: row;
+    margin: 100px 50px;
+    box-shadow: -10px 5px 20px 0px darkblue;
+}
+#perfilcard{
+    background-color: cadetblue;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.foto{
+    height: 200px;
+    right: 200px;
+    border-radius: 50%;
+}
+.peding{ padding: 50px;
+
+}
+#dados{ 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+#contatos{ 
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+
+}
+.cg{
+    background-color: rgb(199, 199, 199);
+    border: 1px solid  rgb(8, 4, 4);
+    border-radius: 20px;
+    padding: 7px 10px;
+    font-weight: 700;
+    color: rgb(3, 2, 2);
+    text-decoration: none;
+    user-select: none;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+    color: aliceblue;
+}
+h1{
+   font-size: 40px;
+}
+hr{
+    background-color: black;
+    height: 1px;
+    width: 50%;
+}
